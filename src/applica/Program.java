@@ -25,6 +25,13 @@ public class Program {
 			
 		}
 		
+		//Vai criar uma pasta
+		
+		boolean success = new File(strPath + "\\subdir").mkdir();
+		System.out.println("Directory creadted successfully:  " + success);
+		
+		
+		
 		sc.close();
 		
 	}
